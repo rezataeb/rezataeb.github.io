@@ -82,6 +82,7 @@ iframe {
 
 .chart-wrapper {
     text-align: center !important;
+
     }
  .vega-embed.has-actions {
        padding-right: 0 !important;
@@ -93,4 +94,17 @@ iframe {
 
 .vega-bind {
     text-align:right;
-  }
+}
+
+
+canvas.marks {
+    max-width: 100%!important;
+    height: auto!important;
+}
+
+@media only screen and (max-width: 844px) {
+    .image-title h1 
+    {
+        font-size: 14px;
+}
+}
