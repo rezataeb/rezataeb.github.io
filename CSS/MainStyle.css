@@ -107,4 +107,15 @@ canvas.marks {
     {
         font-size: 14px;
 }
+
+    .first-chart,
+    .second-chart{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    text-align:center;
 }
+
+  }
