@@ -1,12 +1,12 @@
 .main-image img{width: 100%;
-    height: 350px;
+    height: 250px;
 }
 
 .overlay { 
     display: block;
     position: absolute;
     width: 100%;
-    height: 350px;
+    height: 250px;
     background: black;
     opacity: 0.7;
     top: 51px;
@@ -102,20 +102,14 @@ canvas.marks {
     height: auto!important;
 }
 
+
 @media only screen and (max-width: 844px) {
     .image-title h1 
     {
         font-size: 14px;
 }
 
-    .first-chart,
-    .second-chart{
-    width: 100%;
-    height: 400px;
-    margin: 0 auto;
-    margin-top: 10px;
-    display: block;
-    text-align:center;
-}
+    .first-chart {height: 250px;}
+    .second-chart {height: 250px;}
 
   }
