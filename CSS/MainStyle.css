@@ -103,19 +103,61 @@ canvas.marks {
 }
 
 
-@media only screen and (max-width: 844px) {
+
+/* #1112 screen */
+@media only screen and (max-width: 1112px) {
+
+    .image-title h1 
+    {
+        font-size: 24px;
+}
+
+    .first-chart {height: 520px;}
+    .second-chart {height: 470px;}
+    
+}
+
+
+/* #1024 screen */
+@media only screen and (max-width: 1024px) {
+
+    .first-chart {height: 480px;}
+    .second-chart {height: 440px;}
+    
+}
+
+/* #800 screen */
+@media only screen and (max-width: 800px) {
+
+    .first-chart {height: 370px;}
+    .second-chart {height: 350px;}
+    
+}
+
+/* #428 screen - iphone 12Pro,12,X  */
+@media only screen and (max-width: 428px) {
     .image-title h1 
     {
         font-size: 14px;
 }
 
-    .first-chart {height: 250px;}
-    .second-chart {height: 250px;}
+    .first-chart {height: 200px;}
+    .second-chart {height: 210px;}
 
   }
 
-@media only screen and (max-width: 380px) {
-    .first-chart {height: 200px;}
+ /* #390 screen - iphone 8plus, 7,6*/
+  @media only screen and (max-width: 390px) {
+
+    .first-chart {height: 180px;}
     .second-chart {height: 200px;}
-    
-}
+
+  }
+
+/* #320 screen - iphone SE */
+  @media only screen and (max-width: 320px) {
+
+    .first-chart {height: 160px;}
+    .second-chart {height: 200px;}
+
+  } 
