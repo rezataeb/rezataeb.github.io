@@ -135,7 +135,7 @@ canvas.marks {
 }
 
 /* #428 screen - iphone 12Pro,12,X  */
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 414px) {
     .image-title h1 
     {
         font-size: 14px;
@@ -147,7 +147,7 @@ canvas.marks {
   }
 
  /* #390 screen - iphone 8plus, 7,6*/
-  @media only screen and (max-width: 390px) {
+  @media only screen and (max-width: 375px) {
 
     .first-chart {height: 180px;}
     .second-chart {height: 200px;}
