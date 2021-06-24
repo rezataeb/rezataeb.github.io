@@ -149,8 +149,8 @@ canvas.marks {
  /* #390 screen - iphone 8plus, 7,6*/
   @media only screen and (max-width: 375px) {
 
-    .first-chart {height: 180px;}
-    .second-chart {height: 200px;}
+    .first-chart {height: 160px;}
+    .second-chart {height: 150px;}
 
   }
 
