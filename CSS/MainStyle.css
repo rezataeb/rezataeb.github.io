@@ -135,32 +135,30 @@ canvas.marks {
 }
 
 /* #428 screen - iphone 12Pro,12,X  */
-@media only screen and (max-width: 414px) {
-    
-    .image-title h1 {font-size: 14px;}
+@media only screen and (max-width: 428px) {
+    .image-title h1 
+    {
+        font-size: 14px;
+}
 
-    .first-chart {height: 100px;}
+    .first-chart {height: 200px;}
     .second-chart {height: 210px;}
 
   }
 
-
  /* #390 screen - iphone 8plus, 7,6*/
- @media only screen and (max-width: 375px) {
-     
-    .image-title h1 {font-size: 14px;}
+  @media only screen and (max-width: 390px) {
 
-    .first-chart {height: 160px;}
-    .second-chart {height: 150px;}
+    .first-chart {height: 180px;}
+    .second-chart {height: 200px;}
 
   }
 
 /* #320 screen - iphone SE */
   @media only screen and (max-width: 320px) {
 
-    .image-title h1 {font-size: 14px;}
-
     .first-chart {height: 160px;}
     .second-chart {height: 200px;}
 
   } 
+  
